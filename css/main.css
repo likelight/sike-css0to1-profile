@@ -143,6 +143,42 @@ h1 {
 
 .info-section header {
     margin-bottom: 60px;
-
 }
 
+.education-experience__list img {
+    width: 180px;
+    float: left;
+}
+
+.education-experience__list li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.education-experience__list h3,
+.education-experience__title,
+.education-experience__description {
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.photos__list li,
+.get-in-touch__list li {
+    list-style: none;
+    width: 25%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
+
+.photos__list li img {
+    width: 100%;
+}
