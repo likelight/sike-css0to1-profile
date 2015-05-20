@@ -89,14 +89,16 @@ h1 {
 }
 
 .info-section h2:after {
+    content: "";
+    display: block;
+    width: 90px;
     border-bottom: 3px solid #000;
+    margin: 5px auto;
 }
 
 .info-section__description {
     font-style: italic;
 }
-
-
 
 .whatido__skill-list  {
     list-style: none;
@@ -109,7 +111,6 @@ h1 {
     display: table;
     clear: both;
 }
-
 
 .whatido__skill--code {
     background-image: url(../img/skill-code.png);
@@ -129,13 +130,15 @@ h1 {
     background-position: center top;
 }
 
-
-
 .whatido__skill {
     float: left;
     width: 33%;
     padding-top: 100px;
     text-align: center;
+}
+
+.whatido__skill p {
+    font-size: 14px;
 }
 
 .info-section header {
