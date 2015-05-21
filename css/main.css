@@ -182,3 +182,53 @@ html {
 .photos__list li img {
     width: 100%;
 }
+
+.contact {
+    text-align: left;
+}
+.info-section form {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+}
+
+.contact label {
+    position: absolute;
+    width: 20%;
+    /*text-align: right;*/
+}
+
+.contact .name{
+    left: -20%;
+    top:5%
+}
+
+.contact .email {
+    left: -20%;
+    top: 30%;
+}
+
+.contact .message {
+    left: -28%;
+    top: 60%;
+}
+
+.contact button {
+    border: none;
+    border-radius: 9999px;
+    background: #ffd524;
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    color: #fff;
+    box-shadow: 0 3px 0 #daae1d;
+    width: 100%;
+}
